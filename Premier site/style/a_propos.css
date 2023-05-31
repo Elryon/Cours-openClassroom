@@ -1,0 +1,39 @@
+.capacite{
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+.capacite h2{
+    margin-top: 50px;
+}
+table{
+    border-collapse:collapse;
+    margin: auto;
+}
+td, th{
+    color: white;
+    border: 1px white solid;
+    padding: 40px;
+}
+caption{
+    color: white;
+    margin-bottom: 15px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    align-self: flex-start;
+}
+@media screen and (max-width: 996px) {
+    table{
+        display: none;
+    }
+    .capacite{
+        width: 80%;
+    }
+}

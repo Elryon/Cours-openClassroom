@@ -1,0 +1,83 @@
+.accueil-intro{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+}
+.accueil-intro div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.accueil-img{
+
+    padding: 20px;
+    background-color: white;
+}
+.accueil-img div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 10px;
+    gap: 10px;
+}
+.accueil-img h2{
+    color: #1f2039;
+    text-align: center;
+}
+.contact h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name_mail{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 60%;
+    border: none;
+}
+.form_column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+label{
+    color: white;
+}
+input,textarea{
+    border-radius: 5px;
+    border: none;
+}
+.in-name-mail{
+    height: 30px;
+}
+textarea{
+    height: 90px;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+input[type='submit']:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 996px) {
+    .accueil-intro, form{
+        max-width: 1000px;
+    }
+    .accueil-intro{
+        flex-direction: column-reverse;
+    }
+    .accueil-img div{
+        flex-direction: column;
+    }
+}
