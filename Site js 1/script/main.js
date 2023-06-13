@@ -1,0 +1,3 @@
+runGame ();
+
+initAddEventListenerPopup()
